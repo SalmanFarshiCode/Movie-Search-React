@@ -1,21 +1,39 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 Movie Search (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple movie UI project built with **React** and **Vite**, using **React Router** for navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Features
 
-## React Compiler
+- 🔎 Search form UI (Home page)
+- 🧭 Routing:
+  - `/` → Home
+  - `/favorites` → Favorites
+- 🧩 Component-based structure (`MovieCard`, `NavBar`, etc.)
+- 🎨 CSS organized inside `src/css/`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🗂️ Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Movie-Search-React
-Movie search web application using React. Implemented search by title and a clean results layout showing key movie details. Integration of a public movie REST API to fetch data and display search results dynamically
->>>>>>> c3c557da067ddd64fefbc1b994774ec545de7bb5
+```txt
+films/
+  src/
+    components/
+      MovieCard.jsx
+      NavBar.jsx
+    pages/
+      Home.jsx
+      Favorites.jsx
+    css/
+      App.css
+      index.css
+      Home.css
+      Favorites.css
+      MovieCard.css
+      NavBar.css
+    App.jsx
+    main.jsx
+  package.json
+  vite.config.js

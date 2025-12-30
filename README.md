@@ -13,6 +13,8 @@ A simple movie UI project built with **React** and **Vite**, using **React Route
 - 🧩 Component-based structure (`MovieCard`, `NavBar`, etc.)
 - 🎨 CSS organized inside `src/css/`
 
+![movies](https://github.com/user-attachments/assets/9ce449c3-2ca8-48a2-9680-6962ffd3198b)
+
 ---
 
 ## 🗂️ Project Structure
